@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Shop - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pink Blossom Sdn Bhd - Flower Varieties</h1>
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="registration.php">Register New Flower</a>
+            <a href="flower_records.php">View Flower Records</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="page-title">Available Flowers</h2>
+        
+        <div class="flowers-grid">
+            <article class="flower-item">
+                <div class="flower-content">
+                    <h3>Rose</h3>
+                    <img src="images/rose.jpg" alt="Rose" class="flower-img">
+                    <p class="flower-description">A symbol of love and beauty, roses come in various colors each with its own meaning. Perfect for expressing affection.</p>
+                </div>
+            </article>
+            
+            <article class="flower-item">
+                <div class="flower-content">
+                    <h3>Tulip</h3>
+                    <img src="images/tulip.jpg" alt="Tulip" class="flower-img">
+                    <p class="flower-description">These vibrant flowers symbolize happiness and grace. Tulips are known for their simplicity and elegance.</p>
+                </div>
+            </article>
+            
+            <article class="flower-item">
+                <div class="flower-content">
+                    <h3>Sunflower</h3>
+                    <img src="images/sunflower.jpg" alt="Sunflower" class="flower-img">
+                    <p class="flower-description">Bright and cheerful, sunflowers represent warmth and positivity. They are often associated with summer and joy.</p>
+                </div>
+            </article>
+            
+            <article class="flower-item">
+                <div class="flower-content">
+                    <h3>Orchid</h3>
+                    <img src="images/orchid.jpg" alt="Orchid" class="flower-img">
+                    <p class="flower-description">Orchids are known for their exotic beauty and symbolize strength and refinement. They add elegance to any setting.</p>
+                </div>
+            </article>
+            
+            <article class="flower-item">
+                <div class="flower-content">
+                    <h3>Lily</h3>
+                    <img src="images/lily.jpg" alt="Lily" class="flower-img">
+                    <p class="flower-description">Lilies are associated with purity and renewal. They come in different colors, each with unique meanings.</p>
+                </div>
+            </article>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px;">
+            <a href="registration.php" class="back-link">Register New Flower Stock</a>
+        </p>
+    </div>
+</body>
+</html>
