@@ -33,7 +33,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         // Store the error message in the session
         $_SESSION['error'] = "Error uploading the flower image.";
-        header("Location: registration.php");
+        header("Location: registration.html");
         exit;
     }
 } else {
@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $flower_image = $_GET['flower_image'];
     } else {
         // If the flower details were not passed, redirect to the registration page
-        header("Location: registration.php");
+        header("Location: registration.html");
         exit;
     }
 }
@@ -64,9 +64,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <header>
         <h1>New Flower Stock Added</h1>
         <nav>
-            <a href="index.php">Home</a>
-            <a href="registration.php">Register New Flower</a>
-            <a href="flower_records.php">View Flower Records</a>
+            <a href="index.html">Home</a>
+            <a href="registration.html">Register New Flower</a>
+            <a href="flower_records.html">View Flower Records</a>
         </nav>
     </header>
     <div class="container">
